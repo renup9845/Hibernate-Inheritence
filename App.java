@@ -1,6 +1,13 @@
+/**
+ *  Employee Mangement System To Create Employee, Fresher Employee, Experienced Employee In DataBase Using Inheritence In Hibernate And Print Data Of One Or All
+ *  Employee,Delete Employee Using Data Access Object 
+ *  By Renu
+ */
+
+
+
+
 package com.slot1hibernate;
-
-
 
 import java.util.List;
 import java.util.Scanner;
@@ -32,7 +39,7 @@ public class App
     	
     	while(choice<7) {
     		System.out.println("\t\t\tWELCOME TO EMPLOYEE MANAGEMENT SYSTEM");
-			System.out.println("\nPress 1 - New Register \nPress 2 - Register as Fresher \nPress 3 - Rgister as Experienced \nPress 4 - Print Employee \nPress 5 - Print All Employee \nPress 6 - Remove Employee \nPress 7 - Exit");
+			System.out.println("\nPress 1 - New Register \nPress 2 - Register as Fresher \nPress 3 - Rgister as Experienced \nPress 4 - Print Employee \nPress 5 - Print All Employee \nPress 6 - Remove Employee ");
 			System.out.print("ENTER CHOICE : ");
 			choice = scan.nextInt();
 			
